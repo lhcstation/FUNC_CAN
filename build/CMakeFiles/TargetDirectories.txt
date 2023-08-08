@@ -1,0 +1,3 @@
+/home/lhc/FUNC_CAN/build/CMakeFiles/canTool.dir
+/home/lhc/FUNC_CAN/build/CMakeFiles/edit_cache.dir
+/home/lhc/FUNC_CAN/build/CMakeFiles/rebuild_cache.dir

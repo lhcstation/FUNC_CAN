@@ -1,0 +1,11 @@
+struct ADCU_CAN_CMD
+{
+    int8_t     LngCtrlReq;
+    int16_t    AutoTrqWhlReq;
+    float      BrakeReq;
+    int8_t     GearLvlReq;
+    int8_t     GearLvlReqVD;
+    int8_t     LatCtrlReq;
+    float      SteerWhlTorqReq;
+    float      SteerAngReq;
+}

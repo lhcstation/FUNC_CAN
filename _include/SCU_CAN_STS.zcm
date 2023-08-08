@@ -1,0 +1,44 @@
+struct SCU_CAN_STS
+{
+    int8_t     LngCtrlMode;
+    int32_t    LngAutoCheckReport;
+    int32_t    LngQuitReport;
+    int8_t     GearLeverIntv;
+    int8_t     BrkPedalSt;
+    int16_t    ActVehWheelTorq;
+    int16_t    VehWheelTorqMax;
+    float      GasPedalAcPst;
+    int8_t     AccElecECFail;
+    int8_t     VehRdySt;
+    int8_t     VehDrvMod;
+    int8_t     VehRng;
+    int8_t     CrntGearLvl;
+    float      VehSpd;
+    int8_t     ABSActiveSt;
+    int8_t     CDDAvailable;
+    int8_t     AEBAvailable;
+    int8_t     CDDFail;
+    int8_t     CDDActive;
+    int8_t     AEBActive;
+    int8_t     VehicleStandStillSt;
+    float      ActVehLongAccel;
+    float      VehLongAccelOffset;
+    int8_t     SysSt;
+    int8_t     SwitchSt;
+    int8_t     FailSt;
+    int8_t     LatCtrlMode;
+    int32_t    LatAutoCheckReport;
+    int32_t    LatQuitReport;
+    int8_t     StrngWhlIntv;
+    float      SteeringAngle;
+    int8_t     SteeringAngleVD;
+    int8_t     SteeringAngleSpd;
+    int8_t     SteeringAngleSpdVD;
+    float      StrngWhlTorq;
+    int8_t     StrngWhlTorqVD;
+    int8_t     WarnLamp;
+    float      ActVeLaltrlAccel;
+    float      VehLaltrlAccelOffset;
+    float      YawRate;
+    float      YawRateOffset;
+}
